@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kontho_shilpi_Activity">
+
+ <EditText
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="60dp"
+        android:background="@drawable/edit_text_bg"
+        android:textSize="14sp"
+        android:hint="Search"
+        android:layout_width="match_parent"
+        android:layout_height="31dp">
+
+    </EditText>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+       android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="95dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/robi_thakur"
+                    android:layout_width="93dp"
+                    android:layout_height="70dp">
+
+                </ImageView>
+
+                <TextView
+
+                    android:gravity="center_horizontal"
+                    android:textColor="#324E0B"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:text="রবীন্দ্র সংগীত "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="93dp"
+                android:layout_height="95dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/robi_thakur"
+                    android:layout_width="93dp"
+                    android:layout_height="70dp">
+
+                </ImageView>
+
+                <TextView
+                    android:textColor="#324E0B"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:text="রবীন্দ্র সংগীত "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="93dp"
+                android:layout_height="95dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/robi_thakur"
+                    android:layout_width="93dp"
+                    android:layout_height="70dp">
+
+                </ImageView>
+
+                <TextView
+                    android:textColor="#324E0B"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:text="রবীন্দ্র সংগীত "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
