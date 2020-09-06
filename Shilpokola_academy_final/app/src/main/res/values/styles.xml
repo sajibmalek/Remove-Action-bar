@@ -8,7 +8,7 @@
     </style>
 
 
-    //Custom App bar
+    //Custom Action Bar
 
     <style name="Splash_Screen" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowActionBar">false</item>
